@@ -1,0 +1,52 @@
+.header {
+    background-color: $color-grey-light-1;
+    display: flex;
+
+    .heading-primary {
+        margin-bottom: 2.5rem;
+    }
+
+    .paragraph-primary {
+        margin-bottom: 2rem;
+    }
+
+    &__text-box {
+        display: grid;
+        grid-template-rows: min-content min-content 1fr min-content;
+        align-items: start;
+        justify-content: start;
+    }
+
+    &__img {
+        img {
+            object-fit: contain;
+        }
+    }
+    
+    &__comment {
+        margin: 3rem 0;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+
+        img {
+            top: 1rem;
+        }
+
+        &__text {
+            font-family: Walsheim-Thin;
+            font-weight: 700;
+            font-style: italic;
+        }
+
+        &__author {
+            font-size: 1.2rem;
+            line-height: 2;
+        }
+
+        &__text-box {
+            width: 50%;
+            margin-left: 1rem;
+        }
+    }
+}

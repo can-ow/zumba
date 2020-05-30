@@ -1,0 +1,19 @@
+.btn,
+.btn::after,
+.btn::before {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    color: white;
+    box-shadow: none;
+    border-width: 0;
+    background-color: $button-color;
+    transition: all .1s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    filter: brightness(110%);
+}

@@ -1,0 +1,41 @@
+.introduction {
+    background-color: $color-grey-light-2;
+    background-position: 0% 10%;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+    display: grid;
+    grid-template-columns: 1fr 50rem;
+    align-items: center;
+    grid-column-gap: 8vw;
+    overflow: visible;
+
+    &__text-box {
+    }
+
+    &__header {
+        margin-bottom: 5rem;
+    }
+
+    &__text {
+        line-height: 2;
+        font-weight: 600;
+    }
+
+    &__img {
+        position: relative;
+        align-self: start;
+        background-color: white;
+        padding: 0;
+        z-index: 50;
+
+        img {
+            box-shadow: 1rem 2rem 2rem rgba($color-black, $alpha: .15);
+            position: absolute;
+            top: -15rem;
+            left: 0;
+            width: 100%;
+        }
+    }
+}
+//clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
