@@ -1,16 +1,15 @@
 .introduction {
     background-color: $color-grey-light-2;
-    background-position: 0% 10%;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    height: 55rem;
 
     display: grid;
     grid-template-columns: 1fr 50rem;
-    align-items: center;
-    grid-column-gap: 8vw;
+    align-items: start;
+    grid-column-gap: 8rem;
     overflow: visible;
 
     &__text-box {
+        padding-top: 7rem;
     }
 
     &__header {
@@ -32,7 +31,7 @@
         img {
             box-shadow: 1rem 2rem 2rem rgba($color-black, $alpha: .15);
             position: absolute;
-            top: -15rem;
+            top: -5rem;
             left: 0;
             width: 100%;
         }

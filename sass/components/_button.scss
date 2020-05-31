@@ -3,17 +3,17 @@
 .btn::before {
     font-size: 1.5rem;
     font-weight: 700;
-    padding: 1.5rem 2rem;
+    padding: 1rem 3rem;
     border-radius: 5px;
     color: white;
     box-shadow: none;
     border-width: 0;
-    background-color: $button-color;
+    background-color: $button-color-1;
     transition: all .1s;
 }
 
 .btn:hover {
     cursor: pointer;
-    color: white;
-    filter: brightness(110%);
+    color: $color-grey-light-1;
+    filter: brightness(120%);
 }
